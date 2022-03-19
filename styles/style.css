@@ -1,0 +1,41 @@
+* {
+    /* border: 2px solid black */
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+}
+
+#sidebar {
+    /* flex: auto; */
+}
+
+#sidebar p {
+    text-align: right;
+    margin: 10px;
+}
+
+#container-div {
+    width: 960px;
+    border: 2px solid black;
+}
+
+/* float/clear */
+/* .grid {
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    float: left;
+} */
+
+/*  */
+.grid-div {
+    float: left;
+}
+
+.grid-div-below {
+    float: left;
+}
