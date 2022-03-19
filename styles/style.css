@@ -14,9 +14,11 @@ header{
 
 #sidebar {
     /* flex: auto; */
+    display: flex;
+    flex-direction: column;
 }
 
-#sidebar p {
+#sidebar button {
     text-align: right;
     margin: 10px;
 }
@@ -48,4 +50,8 @@ header{
     height: 60px;
     /* margin: auto; */
     flex: 0 0 auto;
+}
+
+.grid-drawn {
+    background-color: black;
 }
